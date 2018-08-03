@@ -1,4 +1,4 @@
-package com.cier.design.patterns;
+package com.cier.designPatterns.singleton;
 
 /**
  * 饿汉式
