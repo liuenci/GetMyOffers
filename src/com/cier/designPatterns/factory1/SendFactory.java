@@ -1,4 +1,4 @@
-package com.cier.designPatterns.factory;
+package com.cier.designPatterns.factory1;
 
 /**
  * 普通工厂方法

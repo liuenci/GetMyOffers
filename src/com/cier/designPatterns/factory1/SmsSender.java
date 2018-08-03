@@ -1,4 +1,4 @@
-package com.cier.designPatterns.factory;
+package com.cier.designPatterns.factory1;
 
 public class SmsSender implements Sender{
     @Override
