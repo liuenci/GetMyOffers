@@ -1,7 +1,7 @@
 package com.cier.designPatterns.singleton;
 
 /**
- * 懒汉式
+ * 双重检查锁的懒汉式
  */
 public class SingletonExample3 {
     // 声明变量
