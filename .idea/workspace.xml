@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce54b708-fe00-4044-ac3d-ca2b2ba64438" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/cier/designPatterns/singleton/SingletonExample3.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/cier/design/patterns/SingletonExample1.java" afterPath="$PROJECT_DIR$/src/com/cier/designPatterns/singleton/SingletonExample1.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/cier/design/patterns/SingletonExample2.java" afterPath="$PROJECT_DIR$/src/com/cier/designPatterns/singleton/SingletonExample2.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/cier/designPatterns/singleton/SingletonExample2.java" afterPath="$PROJECT_DIR$/src/com/cier/designPatterns/singleton/SingletonExample2.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,21 +27,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SingletonExample3.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SingletonExample3.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/cier/designPatterns/singleton/SingletonExample3.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="266">
-              <caret line="14" column="28" lean-forward="false" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+              <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SingletonExample2.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SingletonExample2.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/cier/designPatterns/singleton/SingletonExample2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="361">
+              <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -81,6 +79,7 @@
         <option value="$PROJECT_DIR$/src/com/cier/design/patterns/SingletonExample3.java" />
         <option value="$PROJECT_DIR$/src/com/cier/design/patterns/singleton/SingletonExample3.java" />
         <option value="$PROJECT_DIR$/src/com/cier/designPatterns/singleton/SingletonExample3.java" />
+        <option value="$PROJECT_DIR$/src/com/cier/designPatterns/singleton/SingletonExample2.java" />
       </list>
     </option>
   </component>
@@ -276,12 +275,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1533281429470</updated>
-      <workItem from="1533281434144" duration="2016000" />
+      <workItem from="1533281434144" duration="2113000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2016000" />
+    <option name="totallyTimeSpent" value="2113000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
@@ -337,6 +336,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cier/designPatterns/singleton/SingletonExample3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/cier/designPatterns/singleton/SingletonExample1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -350,16 +357,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/cier/designPatterns/singleton/SingletonExample2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cier/designPatterns/singleton/SingletonExample3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="28" lean-forward="false" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+        <state relative-caret-position="361">
+          <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
           <folding />
         </state>
       </provider>
