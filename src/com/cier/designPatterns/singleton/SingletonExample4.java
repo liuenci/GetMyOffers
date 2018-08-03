@@ -1,25 +1,17 @@
 package com.cier.designPatterns.singleton;
 
 /**
- * 懒汉式
+ * 静态内部类的懒汉式
+ * 既实现了线程安全，又避免了同步带来的性能影响
  */
 public class SingletonExample4 {
-    // 声明变量
-    public static volatile SingletonExample4 instance = null;
-
-    // 私有化构造函数
+    private static class LazyHolder{
+        private static final SingletonExample4 instance = new SingletonExample4();
+    }
     private SingletonExample4(){
 
     }
-    // 提供对外方法
-    public static SingletonExample4 getInstance(){
-        if (instance == null){
-            synchronized (SingletonExample4.class){
-                if (instance == null){
-                    instance = new SingletonExample4();
-                }
-            }
-        }
-        return instance;
+    public static final SingletonExample4 getInstace(){
+        return LazyHolder.instance;
     }
 }
