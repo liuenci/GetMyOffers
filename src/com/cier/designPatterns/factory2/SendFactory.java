@@ -19,6 +19,6 @@ public class SendFactory {
     public static void main(String[] args) {
         SendFactory factory = new SendFactory();
         Sender sender = factory.produceMail();
-        sender.Send();
+        sender.send();
     }
 }
