@@ -1,4 +1,4 @@
-package com.cier.designPatterns.builder;
+package com.cier.designPatterns.builder1;
 
 
 public class SmsSender implements Sender{
