@@ -6,4 +6,8 @@ public class DuoTaiExample {
         father.say();
         Father.action();
     }
+
+    public int DuoTaiExample(){
+        return 1;
+    }
 }
