@@ -12,9 +12,11 @@ import java.util.concurrent.TimeUnit;
 public class ExecutorExample3 {
     public static void main(String[] args) {
         ScheduledExecutorService scheduledThreadPool = Executors.newScheduledThreadPool(5);
-        scheduledThreadPool.schedule(()->{
+        /*scheduledThreadPool.schedule(()->{
             System.out.println("延迟 " + 1 + " 秒");
-        },1, TimeUnit.SECONDS);
-        scheduledThreadPool.shutdown();
+        },1, TimeUnit.SECONDS);*/
+        scheduledThreadPool.scheduleAtFixedRate(()->{
+            System.out.println("延迟 1 秒之后每隔 2 秒执行");
+        },1,2,TimeUnit.SECONDS);
     }
 }
