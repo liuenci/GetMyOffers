@@ -5,6 +5,7 @@ import java.util.concurrent.Executors;
 
 /**
  * 可缓冲线程池
+ * 线程池为无限大，当执行第二个任务时第一个任务已经完成，会复用执行第一个任务的线程，而不用每次新建线程。
  */
 public class ExecutorExample1 {
     public static void main(String[] args) {
