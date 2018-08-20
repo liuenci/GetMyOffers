@@ -8,6 +8,7 @@ import java.util.concurrent.TimeUnit;
 /**
  * 可缓冲线程池
  * 创建一个定长线程池，支持定时及周期性任务执行
+ * ScheduledExecutorService比Timer更安全，功能更强大
  */
 public class ExecutorExample3 {
     public static void main(String[] args) {
