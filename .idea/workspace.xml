@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce54b708-fe00-4044-ac3d-ca2b2ba64438" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/cier/base/sta/StaticExample.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/cier/base/sta/MyApplication.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -15,7 +15,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="StaticExample.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="StaticExample.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/cier/base/sta/StaticExample.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="76">
@@ -23,6 +23,19 @@
               <folding>
                 <element signature="e#107#108#0" expanded="true" />
                 <element signature="e#133#134#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyApplication.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/cier/base/sta/MyApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding>
+                <element signature="e#202#203#0" expanded="true" />
+                <element signature="e#245#246#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -68,8 +81,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/cier/designPatterns/builder2/Director.java" />
-        <option value="$PROJECT_DIR$/src/com/cier/designPatterns/builder2/CreateBuilder.java" />
         <option value="$PROJECT_DIR$/src/com/cier/designPatterns/builder2/Pattern.java" />
         <option value="$PROJECT_DIR$/src/com/cier/designPatterns/builder2/BuilderExample.java" />
         <option value="$PROJECT_DIR$/src/com/cier/designPatterns/adapter1/Source.java" />
@@ -119,6 +130,8 @@
         <option value="$PROJECT_DIR$/src/com/cier/base/jicheng/B.java" />
         <option value="$PROJECT_DIR$/src/com/cier/base/jicheng/Test1.java" />
         <option value="$PROJECT_DIR$/src/com/cier/base/sta/StaticExample.java" />
+        <option value="$PROJECT_DIR$/src/com/cier/base/sta/Test.java" />
+        <option value="$PROJECT_DIR$/src/com/cier/base/sta/MyApplication.java" />
       </list>
     </option>
   </component>
@@ -194,6 +207,23 @@
               <item name="cier" type="462c0819:PsiDirectoryNode" />
               <item name="base" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="GetMyOffers" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GetMyOffers" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="cier" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+              <item name="sta" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GetMyOffers" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GetMyOffers" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="cier" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+              <item name="sta" type="462c0819:PsiDirectoryNode" />
+              <item name="MyApplication.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -235,31 +265,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test1">
+  <component name="RunManager" selected="Application.MyApplication">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
-    </configuration>
-    <configuration name="ExecutorExample1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.cier.executor.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.cier.executor.ExecutorExample1" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="GetMyOffers" />
-      <envs />
     </configuration>
     <configuration name="ExecutorExample2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
@@ -307,6 +318,25 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.cier.executor.ExecutorExample4" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="GetMyOffers" />
+      <envs />
+    </configuration>
+    <configuration name="MyApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.cier.base.sta.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.cier.base.sta.MyApplication" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -431,19 +461,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.ExecutorExample1" />
-      <item index="1" class="java.lang.String" itemvalue="Application.ExecutorExample2" />
-      <item index="2" class="java.lang.String" itemvalue="Application.ExecutorExample3" />
-      <item index="3" class="java.lang.String" itemvalue="Application.ExecutorExample4" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Test1" />
+      <item index="0" class="java.lang.String" itemvalue="Application.ExecutorExample2" />
+      <item index="1" class="java.lang.String" itemvalue="Application.ExecutorExample3" />
+      <item index="2" class="java.lang.String" itemvalue="Application.ExecutorExample4" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Test1" />
+      <item index="4" class="java.lang.String" itemvalue="Application.MyApplication" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Test1" />
-        <item index="1" class="java.lang.String" itemvalue="Application.ExecutorExample4" />
-        <item index="2" class="java.lang.String" itemvalue="Application.ExecutorExample3" />
-        <item index="3" class="java.lang.String" itemvalue="Application.ExecutorExample2" />
-        <item index="4" class="java.lang.String" itemvalue="Application.ExecutorExample1" />
+        <item index="0" class="java.lang.String" itemvalue="Application.MyApplication" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Test1" />
+        <item index="2" class="java.lang.String" itemvalue="Application.ExecutorExample4" />
+        <item index="3" class="java.lang.String" itemvalue="Application.ExecutorExample3" />
+        <item index="4" class="java.lang.String" itemvalue="Application.ExecutorExample2" />
       </list>
     </recent_temporary>
   </component>
@@ -469,12 +499,12 @@
       <workItem from="1534653785040" duration="5363000" />
       <workItem from="1534735792374" duration="2610000" />
       <workItem from="1534752915325" duration="5138000" />
-      <workItem from="1534833592136" duration="3186000" />
+      <workItem from="1534833592136" duration="3576000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51877000" />
+    <option name="totallyTimeSpent" value="52267000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1432" y="-8" width="1616" height="916" extended-state="6" />
@@ -604,13 +634,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/cier/designPatterns/adapter1/Adapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/cier/designPatterns/adapter1/AdapterTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -1000,6 +1023,17 @@
           <folding>
             <element signature="e#107#108#0" expanded="true" />
             <element signature="e#133#134#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cier/base/sta/MyApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <element signature="e#202#203#0" expanded="true" />
+            <element signature="e#245#246#0" expanded="true" />
           </folding>
         </state>
       </provider>
