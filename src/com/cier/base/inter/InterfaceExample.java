@@ -1,4 +1,4 @@
-package com.cier.base;
+package com.cier.base.inter;
 
 public abstract interface  InterfaceExample {
 }
