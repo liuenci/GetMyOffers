@@ -15,6 +15,7 @@ public class Demo2 {
         String v = "1";
         setValue(v);
         System.out.println(v);
+        System.out.println(1/2.0);
     }
 
     /**
