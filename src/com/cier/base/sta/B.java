@@ -12,4 +12,11 @@ public class B {
     {
         System.out.println("父类B非静态代码块");
     }
+
+    void m2(){
+
+    }
+    protected void m3(){
+
+    }
 }

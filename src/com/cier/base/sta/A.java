@@ -16,4 +16,14 @@ public class A extends B{
     public static void main(String[] args) {
         new A();
     }
+
+    @Override
+    void m2() {
+        super.m2();
+    }
+
+    @Override
+    protected void m3() {
+        super.m3();
+    }
 }
