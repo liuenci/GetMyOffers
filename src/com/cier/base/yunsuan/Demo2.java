@@ -9,5 +9,22 @@ public class Demo2 {
         b8 = (byte) (b1 + b4);  /*语句3*/
         b7 = (byte) (b2 + b5);  /*语句4*/
         System.out.println(b3 + b6);
+        int value = 1;
+        setValue(value);
+        System.out.println(value);
+        String v = "1";
+        setValue(v);
+        System.out.println(v);
+    }
+
+    /**
+     * 基本数据类型是值传递
+     * @param value
+     */
+    public static void setValue(int value){
+        value = 5;
+    }
+    public static void setValue(String value){
+        value = "5";
     }
 }
