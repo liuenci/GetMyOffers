@@ -16,20 +16,27 @@ public class InsertionSort {
         }
     }
 
-    public static void betterSort(int[] array){
-        for (int i = 0; i < array.length; i++){
-            int e = array[i];
+    /**
+     * 改良版的插入排序
+     *
+     * @param array
+     */
+    public static void betterSort(int[] array) {
+        for (int i = 0; i < array.length; i++) {
+            // 获取当前循环次数位置的数组元素
+            int temp = array[i];
             int j = i;
-            for (; j > 0; j--){
-                if (e < array[j - 1]){
+            for (; j > 0; j--) {
+                if (temp < array[j - 1]) {
                     array[j] = array[j - 1];
-                }else{
+                } else {
                     break;
                 }
             }
-            array[j] = e;
+            array[j] = temp;
         }
     }
+
     /**
      * 交换位置
      *
