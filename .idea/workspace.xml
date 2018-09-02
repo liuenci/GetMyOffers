@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce54b708-fe00-4044-ac3d-ca2b2ba64438" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/cier/thread/ThreadTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/cier/suanfa/SelectionSort.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -18,15 +18,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ThreadTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/cier/thread/ThreadTest.java">
+      <file leaf-file-name="SelectionSort.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/cier/suanfa/SelectionSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="29" column="17" lean-forward="true" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
-              <folding>
-                <element signature="e#417#418#0" expanded="true" />
-                <element signature="e#461#462#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="501">
+              <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -76,7 +73,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/cier/designPatterns/observer/Observer2.java" />
         <option value="$PROJECT_DIR$/src/com/cier/designPatterns/observer/Subject.java" />
         <option value="$PROJECT_DIR$/src/com/cier/designPatterns/observer/AbstractSubject.java" />
         <option value="$PROJECT_DIR$/src/com/cier/designPatterns/observer/MySubject.java" />
@@ -127,6 +123,7 @@
         <option value="$PROJECT_DIR$/src/com/cier/base/sta/Spike.java" />
         <option value="$PROJECT_DIR$/src/com/cier/base/sta/TestClass.java" />
         <option value="$PROJECT_DIR$/src/com/cier/thread/ThreadTest.java" />
+        <option value="$PROJECT_DIR$/src/com/cier/suanfa/SelectionSort.java" />
       </list>
     </option>
   </component>
@@ -149,11 +146,11 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1432" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1616" />
-    <option name="height" value="916" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -173,7 +170,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -193,34 +191,11 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="cier" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="GetMyOffers" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GetMyOffers" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="cier" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GetMyOffers" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GetMyOffers" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="cier" type="462c0819:PsiDirectoryNode" />
-              <item name="thread" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GetMyOffers" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GetMyOffers" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="cier" type="462c0819:PsiDirectoryNode" />
-              <item name="thread" type="462c0819:PsiDirectoryNode" />
-              <item name="ThreadTest.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -258,31 +233,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ThreadTest">
+  <component name="RunManager" selected="Application.SelectionSort">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
-    </configuration>
-    <configuration name="C (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.cier.base.duotai.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.cier.base.duotai.C" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="GetMyOffers" />
-      <envs />
     </configuration>
     <configuration name="Demo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
@@ -311,6 +267,25 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.cier.base.F" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="GetMyOffers" />
+      <envs />
+    </configuration>
+    <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.cier.suanfa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.cier.suanfa.SelectionSort" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -454,19 +429,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.C (1)" />
-      <item index="1" class="java.lang.String" itemvalue="Application.F" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Spike" />
-      <item index="3" class="java.lang.String" itemvalue="Application.TestClass" />
-      <item index="4" class="java.lang.String" itemvalue="Application.ThreadTest" />
+      <item index="0" class="java.lang.String" itemvalue="Application.F" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Spike" />
+      <item index="2" class="java.lang.String" itemvalue="Application.TestClass" />
+      <item index="3" class="java.lang.String" itemvalue="Application.ThreadTest" />
+      <item index="4" class="java.lang.String" itemvalue="Application.SelectionSort" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.ThreadTest" />
-        <item index="1" class="java.lang.String" itemvalue="Application.TestClass" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Spike" />
-        <item index="3" class="java.lang.String" itemvalue="Application.F" />
-        <item index="4" class="java.lang.String" itemvalue="Application.C (1)" />
+        <item index="0" class="java.lang.String" itemvalue="Application.SelectionSort" />
+        <item index="1" class="java.lang.String" itemvalue="Application.ThreadTest" />
+        <item index="2" class="java.lang.String" itemvalue="Application.TestClass" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Spike" />
+        <item index="4" class="java.lang.String" itemvalue="Application.F" />
       </list>
     </recent_temporary>
   </component>
@@ -494,15 +469,16 @@
       <workItem from="1534752915325" duration="5138000" />
       <workItem from="1534833592136" duration="11025000" />
       <workItem from="1535073091762" duration="7751000" />
-      <workItem from="1535161407547" duration="7198000" />
+      <workItem from="1535161407547" duration="8413000" />
+      <workItem from="1535886267907" duration="550000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74665000" />
+    <option name="totallyTimeSpent" value="76430000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1432" y="-8" width="1616" height="916" extended-state="6" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -515,19 +491,19 @@
       <window_info id="JRebel Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30729833" sideWeight="0.5051414" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30985916" sideWeight="0.49426934" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30985916" sideWeight="0.49426934" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32394367" sideWeight="0.49485862" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32345015" sideWeight="0.49485862" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22429305" sideWeight="0.4935065" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22686376" sideWeight="0.4935065" order="0" side_tool="false" content_ui="combo" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39948782" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3994602" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22172236" sideWeight="0.5064935" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -690,18 +666,11 @@
           <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="25" />
+      <option name="time" value="26" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://D:/Java/jdk/jre/lib/rt.jar!/java/util/concurrent/locks/Lock.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/cier/juc/Lock/LockTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -947,7 +916,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="4" column="32" lean-forward="false" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -955,7 +923,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" column="14" lean-forward="false" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -963,7 +930,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" column="24" lean-forward="false" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -971,7 +937,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -979,7 +944,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="21" lean-forward="false" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -995,7 +959,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="91">
           <caret line="31" column="29" lean-forward="true" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1003,12 +966,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="11" column="15" lean-forward="true" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
-          <folding>
-            <element signature="e#386#387#0" expanded="true" />
-            <element signature="e#416#417#0" expanded="true" />
-            <element signature="e#453#454#0" expanded="true" />
-            <element signature="e#483#484#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1016,7 +973,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
           <caret line="76" column="32" lean-forward="false" selection-start-line="76" selection-start-column="13" selection-end-line="76" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1024,7 +980,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="265" column="7" lean-forward="true" selection-start-line="265" selection-start-column="7" selection-end-line="265" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1032,7 +987,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="193">
           <caret line="32" column="50" lean-forward="false" selection-start-line="32" selection-start-column="50" selection-end-line="32" selection-end-column="50" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1040,7 +994,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="179">
           <caret line="138" column="0" lean-forward="true" selection-start-line="138" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1048,7 +1001,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="318">
           <caret line="53" column="30" lean-forward="true" selection-start-line="53" selection-start-column="30" selection-end-line="53" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1056,21 +1008,25 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="9" column="38" lean-forward="true" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
-          <folding>
-            <element signature="e#89#90#0" expanded="true" />
-            <element signature="e#137#138#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/cier/thread/ThreadTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="29" column="17" lean-forward="true" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+        <state relative-caret-position="273">
+          <caret line="29" column="17" lean-forward="false" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
           <folding>
             <element signature="e#417#418#0" expanded="true" />
             <element signature="e#461#462#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cier/suanfa/SelectionSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="501">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
