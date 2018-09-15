@@ -22,10 +22,12 @@ public class Demo1 {
         if (diff == 0) {
             System.out.println(0);
         } else {
-            int nums = first + second;
-            int res = 0;
-            if (diff > 0){
-
+            if (diff > 0 && diff < 9){
+                System.out.println(1);
+            }else if (diff >= 9 && diff < 18){
+                System.out.println(2);
+            }else {
+                System.out.println(3);
             }
         }
     }

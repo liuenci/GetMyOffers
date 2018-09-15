@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce54b708-fe00-4044-ac3d-ca2b2ba64438" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/cier/bs/aiqiyi/Demo1.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/com/cier/bs/aiqiyi/Demo1.java" afterPath="$PROJECT_DIR$/src/com/cier/bs/aiqiyi/Demo1.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -101,8 +101,8 @@
       <file leaf-file-name="Demo1.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/cier/bs/aiqiyi/Demo1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="27" column="16" lean-forward="false" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+            <state relative-caret-position="38">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="33" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -582,12 +582,12 @@
       <workItem from="1536320147214" duration="5365000" />
       <workItem from="1536477490869" duration="2213000" />
       <workItem from="1536751364220" duration="2680000" />
-      <workItem from="1536979753919" duration="1470000" />
+      <workItem from="1536979753919" duration="2466000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92236000" />
+    <option name="totallyTimeSpent" value="93232000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
@@ -1269,8 +1269,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/cier/bs/aiqiyi/Demo1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="27" column="16" lean-forward="false" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+        <state relative-caret-position="38">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="33" selection-end-column="1" />
           <folding />
         </state>
       </provider>
