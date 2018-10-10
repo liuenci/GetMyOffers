@@ -1,2 +1,2 @@
 # GetMyOffers
-在我人生第一次求职路上写过的 Demo
+我不要女盆友，只要offer。
