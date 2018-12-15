@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ce54b708-fe00-4044-ac3d-ca2b2ba64438" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/cier/NoVisibility.java" afterDir="false" />
+    <list default="true" id="ce54b708-fe00-4044-ac3d-ca2b2ba64438" name="Default" comment="非可见性">
+      <change afterPath="$PROJECT_DIR$/src/com/cier/FinalizeEscapeGC.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -21,10 +21,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/cier/NoVisibility.java">
+        <entry file="file://$PROJECT_DIR$/src/com/cier/FinalizeEscapeGC.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+            <state relative-caret-position="65">
+              <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+              <folding>
+                <element signature="e#191#192#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -63,7 +66,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/cier/executor/ExecutorExample2.java" />
         <option value="$PROJECT_DIR$/src/com/cier/executor/ExecutorExample3.java" />
         <option value="$PROJECT_DIR$/src/com/cier/executor/ExecutorExample4.java" />
         <option value="$PROJECT_DIR$/src/com/cier/base/InterfaceExample.java" />
@@ -114,6 +116,7 @@
         <option value="$PROJECT_DIR$/src/com/cier/bs/youzan/Demo1.java" />
         <option value="$PROJECT_DIR$/src/com/cier/bs/youzan/Demo2.java" />
         <option value="$PROJECT_DIR$/src/com/cier/NoVisibility.java" />
+        <option value="$PROJECT_DIR$/src/com/cier/FinalizeEscapeGC.java" />
       </list>
     </option>
   </component>
@@ -177,7 +180,7 @@
     <property name="SearchEverywhereHistoryKey" value="HashSet&#9;PSI&#9;JAVA://java.util.HashSet&#10;HashMap&#9;FILE&#9;jar://D:/Java/jdk/src.zip!/java/util/HashMap.java&#10;LinkedBlockingQ&#9;PSI&#9;JAVA://java.util.concurrent.LinkedBlockingQueue&#10;linkedB&#9;PSI&#9;JAVA://java.util.concurrent.LinkedBlockingDeque&#10;Iterator&#9;PSI&#9;JAVA://java.util.Iterator&#10;Vect&#9;PSI&#9;JAVA://java.util.Vector&#10;BufferRe&#9;PSI&#9;JAVA://java.io.BufferedReader&#10;Reent&#9;PSI&#9;JAVA://java.util.concurrent.locks.ReentrantLock&#10;lock&#9;FILE&#9;jar://D:/Java/jdk/jre/lib/rt.jar!/java/util/concurrent/locks/Lock.class&#10;AbstractSet&#9;PSI&#9;JAVA://java.util.AbstractSet&#10;Linked&#9;FILE&#9;jar://D:/Java/jdk/src.zip!/java/util/LinkedList.java&#10;Concu&#9;PSI&#9;JAVA://java.util.concurrent.ConcurrentHashMap&#10;LinkedList&#9;PSI&#9;JAVA://java.util.LinkedList" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544628333236" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544878236605" />
     <property name="last_opened_file_path" value="D:/Program Files/Git/bin/git.exe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="project.structure.last.edited" value="Project" />
@@ -209,23 +212,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.NoVisibility">
+  <component name="RunManager" selected="Application.FinalizeEscapeGC">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Demo (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cier.bs.baicizhan.Demo" />
-      <module name="GetMyOffers" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cier.bs.baicizhan.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -251,6 +240,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.cier.bs.youzan.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FinalizeEscapeGC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cier.FinalizeEscapeGC" />
+      <module name="GetMyOffers" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cier.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -316,19 +319,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Demo (3)" />
       <item itemvalue="Application.OIbject" />
       <item itemvalue="Application.Demo1" />
       <item itemvalue="Application.Demo2" />
       <item itemvalue="Application.NoVisibility" />
+      <item itemvalue="Application.FinalizeEscapeGC" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FinalizeEscapeGC" />
         <item itemvalue="Application.NoVisibility" />
         <item itemvalue="Application.Demo2" />
         <item itemvalue="Application.Demo1" />
         <item itemvalue="Application.OIbject" />
-        <item itemvalue="Application.Demo (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -366,17 +369,28 @@
       <workItem from="1537930397938" duration="789000" />
       <workItem from="1538224492779" duration="3275000" />
       <workItem from="1544628075816" duration="302000" />
-      <workItem from="1544688277210" duration="730000" />
+      <workItem from="1544688277210" duration="949000" />
+      <workItem from="1544689412239" duration="37000" />
+      <workItem from="1544877899274" duration="316000" />
     </task>
+    <task id="LOCAL-00001" summary="非可见性">
+      <created>1544689037006</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1544689037006</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110473000" />
+    <option name="totallyTimeSpent" value="111045000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4935065" visible="true" weight="0.26002866" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4935065" visible="true" weight="0.26719198" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -415,6 +429,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="非可见性" />
+    <option name="LAST_COMMIT_MESSAGE" value="非可见性" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -758,21 +776,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/cier/base/jicheng/Test1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="30" column="21" lean-forward="true" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
-          <folding>
-            <element signature="e#128#129#0" expanded="true" />
-            <element signature="e#163#164#0" expanded="true" />
-            <element signature="e#206#207#0" expanded="true" />
-            <element signature="e#248#249#0" expanded="true" />
-            <element signature="e#858#859#0" expanded="true" />
-            <element signature="e#907#908#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/cier/base/sta/StaticExample.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -1074,8 +1077,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/cier/NoVisibility.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        <state relative-caret-position="200">
+          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cier/FinalizeEscapeGC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+          <folding>
+            <element signature="e#191#192#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
