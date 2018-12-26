@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce54b708-fe00-4044-ac3d-ca2b2ba64438" name="Default" comment="一次对象自我拯救的演示">
-      <change afterPath="$PROJECT_DIR$/src/com/cier/ThreadGroupName.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cier/DaemonDemo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,10 +33,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/cier/ThreadGroupName.java">
+        <entry file="file://$PROJECT_DIR$/src/com/cier/DaemonDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="101">
-              <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+            <state relative-caret-position="220">
+              <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -76,7 +75,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/cier/base/jicheng/A.java" />
         <option value="$PROJECT_DIR$/src/com/cier/base/jicheng/B.java" />
         <option value="$PROJECT_DIR$/src/com/cier/base/jicheng/Test1.java" />
         <option value="$PROJECT_DIR$/src/com/cier/base/sta/StaticExample.java" />
@@ -127,6 +125,7 @@
         <option value="$PROJECT_DIR$/src/com/cier/VectorTask.java" />
         <option value="$PROJECT_DIR$/src/com/cier/MultiThreadLong.java" />
         <option value="$PROJECT_DIR$/src/com/cier/ThreadGroupName.java" />
+        <option value="$PROJECT_DIR$/src/com/cier/DaemonDemo.java" />
       </list>
     </option>
   </component>
@@ -190,7 +189,7 @@
     <property name="SearchEverywhereHistoryKey" value="HashSet&#9;PSI&#9;JAVA://java.util.HashSet&#10;HashMap&#9;FILE&#9;jar://D:/Java/jdk/src.zip!/java/util/HashMap.java&#10;LinkedBlockingQ&#9;PSI&#9;JAVA://java.util.concurrent.LinkedBlockingQueue&#10;linkedB&#9;PSI&#9;JAVA://java.util.concurrent.LinkedBlockingDeque&#10;Iterator&#9;PSI&#9;JAVA://java.util.Iterator&#10;Vect&#9;PSI&#9;JAVA://java.util.Vector&#10;BufferRe&#9;PSI&#9;JAVA://java.io.BufferedReader&#10;Reent&#9;PSI&#9;JAVA://java.util.concurrent.locks.ReentrantLock&#10;lock&#9;FILE&#9;jar://D:/Java/jdk/jre/lib/rt.jar!/java/util/concurrent/locks/Lock.class&#10;AbstractSet&#9;PSI&#9;JAVA://java.util.AbstractSet&#10;Linked&#9;FILE&#9;jar://D:/Java/jdk/src.zip!/java/util/LinkedList.java&#10;Concu&#9;PSI&#9;JAVA://java.util.concurrent.ConcurrentHashMap&#10;LinkedList&#9;PSI&#9;JAVA://java.util.LinkedList" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545810179492" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545811025085" />
     <property name="last_opened_file_path" value="D:/Program Files/Git/bin/git.exe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="project.structure.last.edited" value="Project" />
@@ -223,9 +222,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ThreadGroupName">
+  <component name="RunManager" selected="Application.DaemonDemo">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DaemonDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cier.DaemonDemo" />
+      <module name="GetMyOffers" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cier.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -246,20 +259,6 @@
     </configuration>
     <configuration name="MultiThreadLong" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.cier.MultiThreadLong" />
-      <module name="GetMyOffers" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cier.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NoVisibility" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cier.NoVisibility" />
       <module name="GetMyOffers" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -330,19 +329,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.NoVisibility" />
       <item itemvalue="Application.FinalizeEscapeGC" />
       <item itemvalue="Application.VectorTask" />
       <item itemvalue="Application.MultiThreadLong" />
       <item itemvalue="Application.ThreadGroupName" />
+      <item itemvalue="Application.DaemonDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DaemonDemo" />
         <item itemvalue="Application.ThreadGroupName" />
         <item itemvalue="Application.MultiThreadLong" />
         <item itemvalue="Application.VectorTask" />
         <item itemvalue="Application.FinalizeEscapeGC" />
-        <item itemvalue="Application.NoVisibility" />
       </list>
     </recent_temporary>
   </component>
@@ -387,7 +386,7 @@
       <workItem from="1545015743435" duration="1217000" />
       <workItem from="1545029564258" duration="34000" />
       <workItem from="1545739927172" duration="1035000" />
-      <workItem from="1545809968184" duration="506000" />
+      <workItem from="1545809968184" duration="1023000" />
     </task>
     <task id="LOCAL-00001" summary="非可见性">
       <created>1544689037006</created>
@@ -407,7 +406,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="114685000" />
+    <option name="totallyTimeSpent" value="115202000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
@@ -423,13 +422,13 @@
       <window_info id="Capture Tool" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49426934" weight="0.32210243" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.493553" weight="0.32210243" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.36842105" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49485862" visible="true" weight="0.30727762" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5057307" side_tool="true" weight="0.32928476" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49426934" visible="true" weight="0.30727762" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5057307" side_tool="true" weight="0.30727762" />
       <window_info anchor="bottom" id="Messages" order="9" sideWeight="0.49426934" weight="0.32928476" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32839838" />
       <window_info anchor="bottom" id="JRebel Executor" order="11" sideWeight="0.49928367" weight="0.32884097" />
@@ -800,7 +799,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://D:/Java/jdk/src.zip!/java/net/ServerSocket.java" />
     <entry file="file://$PROJECT_DIR$/src/com/cier/base/jicheng/Test2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -1103,6 +1101,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cier/ThreadGroupName.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/cier/MultiThreadLong.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -1114,10 +1119,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cier/ThreadGroupName.java">
+    <entry file="file://$PROJECT_DIR$/src/com/cier/DaemonDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+        <state relative-caret-position="220">
+          <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
         </state>
       </provider>
     </entry>
