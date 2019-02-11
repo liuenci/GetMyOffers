@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ce54b708-fe00-4044-ac3d-ca2b2ba64438" name="Default" comment="ArrayList 线程不安全">
-      <change afterPath="$PROJECT_DIR$/src/com/cier/BadLockOnInteger.java" afterDir="false" />
+    <list default="true" id="ce54b708-fe00-4044-ac3d-ca2b2ba64438" name="Default" comment="Integer 为不可变对象">
+      <change afterPath="$PROJECT_DIR$/src/com/cier/ReenterLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,12 +19,12 @@
     <favorites_list name="GetMyOffers" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/cier/BadLockOnInteger.java">
+        <entry file="file://$PROJECT_DIR$/src/com/cier/ReenterLock.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+            <state relative-caret-position="105">
+              <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -62,7 +63,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/cier/socket/SocketExample.java" />
         <option value="$PROJECT_DIR$/src/com/cier/base/jicheng/Test2.java" />
         <option value="$PROJECT_DIR$/src/com/cier/base/jicheng/Parent.java" />
         <option value="$PROJECT_DIR$/src/com/cier/base/sta/Test.java" />
@@ -113,6 +113,7 @@
         <option value="$PROJECT_DIR$/src/com/cier/ArrayListMultiThread.java" />
         <option value="$PROJECT_DIR$/src/com/cier/HashMapMultiThread.java" />
         <option value="$PROJECT_DIR$/src/com/cier/BadLockOnInteger.java" />
+        <option value="$PROJECT_DIR$/src/com/cier/ReenterLock.java" />
       </list>
     </option>
   </component>
@@ -176,7 +177,7 @@
     <property name="SearchEverywhereHistoryKey" value="HashSet&#9;PSI&#9;JAVA://java.util.HashSet&#10;HashMap&#9;FILE&#9;jar://D:/Java/jdk/src.zip!/java/util/HashMap.java&#10;LinkedBlockingQ&#9;PSI&#9;JAVA://java.util.concurrent.LinkedBlockingQueue&#10;linkedB&#9;PSI&#9;JAVA://java.util.concurrent.LinkedBlockingDeque&#10;Iterator&#9;PSI&#9;JAVA://java.util.Iterator&#10;Vect&#9;PSI&#9;JAVA://java.util.Vector&#10;BufferRe&#9;PSI&#9;JAVA://java.io.BufferedReader&#10;Reent&#9;PSI&#9;JAVA://java.util.concurrent.locks.ReentrantLock&#10;lock&#9;FILE&#9;jar://D:/Java/jdk/jre/lib/rt.jar!/java/util/concurrent/locks/Lock.class&#10;AbstractSet&#9;PSI&#9;JAVA://java.util.AbstractSet&#10;Linked&#9;FILE&#9;jar://D:/Java/jdk/src.zip!/java/util/LinkedList.java&#10;Concu&#9;PSI&#9;JAVA://java.util.concurrent.ConcurrentHashMap&#10;LinkedList&#9;PSI&#9;JAVA://java.util.LinkedList" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545815105017" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549894305794" />
     <property name="last_opened_file_path" value="D:/Program Files/Git/bin/git.exe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="project.structure.last.edited" value="Project" />
@@ -209,7 +210,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BadLockOnInteger">
+  <component name="RunManager" selected="Application.ReenterLock">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -272,8 +273,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PriorityDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cier.PriorityDemo" />
+    <configuration name="ReenterLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cier.ReenterLock" />
       <module name="GetMyOffers" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -316,19 +317,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.PriorityDemo" />
       <item itemvalue="Application.AccountingVol" />
       <item itemvalue="Application.ArrayListMultiThread" />
       <item itemvalue="Application.HashMapMultiThread" />
       <item itemvalue="Application.BadLockOnInteger" />
+      <item itemvalue="Application.ReenterLock" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReenterLock" />
         <item itemvalue="Application.BadLockOnInteger" />
         <item itemvalue="Application.HashMapMultiThread" />
         <item itemvalue="Application.ArrayListMultiThread" />
         <item itemvalue="Application.AccountingVol" />
-        <item itemvalue="Application.PriorityDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -373,7 +374,10 @@
       <workItem from="1545015743435" duration="1217000" />
       <workItem from="1545029564258" duration="34000" />
       <workItem from="1545739927172" duration="1035000" />
-      <workItem from="1545809968184" duration="4607000" />
+      <workItem from="1545809968184" duration="4680000" />
+      <workItem from="1546006430631" duration="1812000" />
+      <workItem from="1546138712845" duration="15000" />
+      <workItem from="1549894073625" duration="277000" />
     </task>
     <task id="LOCAL-00001" summary="非可见性">
       <created>1544689037006</created>
@@ -396,17 +400,24 @@
       <option name="project" value="LOCAL" />
       <updated>1545813700596</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Integer 为不可变对象">
+      <created>1545815143341</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1545815143341</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="118786000" />
+    <option name="totallyTimeSpent" value="120963000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4935065" visible="true" weight="0.2872493" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4935065" visible="true" weight="0.29948586" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -415,16 +426,16 @@
       <window_info id="Favorites" order="6" sideWeight="0.5064935" side_tool="true" weight="0.22172236" />
       <window_info id="Capture Tool" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.32884097" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.493553" weight="0.32210243" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.36842105" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49426934" visible="true" weight="0.30727762" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49426934" weight="0.30727762" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5057307" side_tool="true" weight="0.30727762" />
-      <window_info anchor="bottom" id="Messages" order="9" sideWeight="0.49426934" weight="0.32928476" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32749325" />
+      <window_info active="true" anchor="bottom" id="Messages" order="9" sideWeight="0.49426934" visible="true" weight="0.32884097" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.3257066" />
       <window_info anchor="bottom" id="JRebel Executor" order="11" sideWeight="0.49928367" weight="0.32884097" />
       <window_info anchor="bottom" id="JRebel Console" order="12" sideWeight="0.5007163" side_tool="true" weight="0.32884097" />
       <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
@@ -450,7 +461,8 @@
     <MESSAGE value="非可见性" />
     <MESSAGE value="一次对象自我拯救的演示" />
     <MESSAGE value="ArrayList 线程不安全" />
-    <option name="LAST_COMMIT_MESSAGE" value="ArrayList 线程不安全" />
+    <MESSAGE value="Integer 为不可变对象" />
+    <option name="LAST_COMMIT_MESSAGE" value="Integer 为不可变对象" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -794,41 +806,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/cier/base/sta/B.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cier/base/sta/A.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="26" column="19" lean-forward="true" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cier/time/Demo1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cier/servlet/Demo1.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/cier/base/yunsuan/Demo2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="34" lean-forward="true" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
-          <folding>
-            <element signature="e#656#657#0" expanded="true" />
-            <element signature="e#681#682#0" expanded="true" />
-            <element signature="e#728#729#0" expanded="true" />
-            <element signature="e#755#756#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/cier/gc/SlotGc.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -1131,8 +1108,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/cier/BadLockOnInteger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+        <state relative-caret-position="200">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../app/Java/jdk/src.zip!/java/util/Set.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="83" lean-forward="true" selection-start-line="83" selection-end-line="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../app/Java/jdk/src.zip!/java/util/HashSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1324">
+          <caret line="95" lean-forward="true" selection-start-line="95" selection-end-line="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../app/Java/jdk/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="111" column="23" lean-forward="true" selection-start-line="111" selection-start-column="23" selection-end-line="111" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../app/Java/jdk/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="110" column="20" selection-start-line="110" selection-start-column="20" selection-end-line="110" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cier/ReenterLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
         </state>
       </provider>
     </entry>
