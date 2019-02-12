@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ce54b708-fe00-4044-ac3d-ca2b2ba64438" name="Default" comment="Integer 为不可变对象">
-      <change afterPath="$PROJECT_DIR$/src/com/cier/ReenterLock.java" afterDir="false" />
+    <list default="true" id="ce54b708-fe00-4044-ac3d-ca2b2ba64438" name="Default" comment="限时等待锁">
+      <change afterPath="$PROJECT_DIR$/src/com/cier/IntLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cier/TimeLock.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -19,12 +20,15 @@
     <favorites_list name="GetMyOffers" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/cier/ReenterLock.java">
+        <entry file="file://$PROJECT_DIR$/src/com/cier/TimeLock.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+            <state relative-caret-position="300">
+              <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -63,8 +67,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/cier/base/jicheng/Test2.java" />
-        <option value="$PROJECT_DIR$/src/com/cier/base/jicheng/Parent.java" />
         <option value="$PROJECT_DIR$/src/com/cier/base/sta/Test.java" />
         <option value="$PROJECT_DIR$/src/com/cier/base/sta/Test1.java" />
         <option value="$PROJECT_DIR$/src/com/cier/base/sta/C.java" />
@@ -114,6 +116,8 @@
         <option value="$PROJECT_DIR$/src/com/cier/HashMapMultiThread.java" />
         <option value="$PROJECT_DIR$/src/com/cier/BadLockOnInteger.java" />
         <option value="$PROJECT_DIR$/src/com/cier/ReenterLock.java" />
+        <option value="$PROJECT_DIR$/src/com/cier/IntLock.java" />
+        <option value="$PROJECT_DIR$/src/com/cier/TimeLock.java" />
       </list>
     </option>
   </component>
@@ -147,8 +151,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -171,13 +173,15 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="HashSet&#9;PSI&#9;JAVA://java.util.HashSet&#10;HashMap&#9;FILE&#9;jar://D:/Java/jdk/src.zip!/java/util/HashMap.java&#10;LinkedBlockingQ&#9;PSI&#9;JAVA://java.util.concurrent.LinkedBlockingQueue&#10;linkedB&#9;PSI&#9;JAVA://java.util.concurrent.LinkedBlockingDeque&#10;Iterator&#9;PSI&#9;JAVA://java.util.Iterator&#10;Vect&#9;PSI&#9;JAVA://java.util.Vector&#10;BufferRe&#9;PSI&#9;JAVA://java.io.BufferedReader&#10;Reent&#9;PSI&#9;JAVA://java.util.concurrent.locks.ReentrantLock&#10;lock&#9;FILE&#9;jar://D:/Java/jdk/jre/lib/rt.jar!/java/util/concurrent/locks/Lock.class&#10;AbstractSet&#9;PSI&#9;JAVA://java.util.AbstractSet&#10;Linked&#9;FILE&#9;jar://D:/Java/jdk/src.zip!/java/util/LinkedList.java&#10;Concu&#9;PSI&#9;JAVA://java.util.concurrent.ConcurrentHashMap&#10;LinkedList&#9;PSI&#9;JAVA://java.util.LinkedList" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549894305794" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549981667285" />
     <property name="last_opened_file_path" value="D:/Program Files/Git/bin/git.exe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="project.structure.last.edited" value="Project" />
@@ -210,37 +214,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ReenterLock">
+  <component name="RunManager" selected="Application.TimeLock">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AccountingVol" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cier.AccountingVol" />
-      <module name="GetMyOffers" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cier.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ArrayListMultiThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cier.ArrayListMultiThread" />
-      <module name="GetMyOffers" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cier.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -273,8 +249,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="IntLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cier.IntLock" />
+      <module name="GetMyOffers" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cier.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ReenterLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.cier.ReenterLock" />
+      <module name="GetMyOffers" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cier.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TimeLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cier.TimeLock" />
       <module name="GetMyOffers" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -317,19 +321,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.AccountingVol" />
-      <item itemvalue="Application.ArrayListMultiThread" />
       <item itemvalue="Application.HashMapMultiThread" />
       <item itemvalue="Application.BadLockOnInteger" />
       <item itemvalue="Application.ReenterLock" />
+      <item itemvalue="Application.IntLock" />
+      <item itemvalue="Application.TimeLock" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TimeLock" />
+        <item itemvalue="Application.IntLock" />
         <item itemvalue="Application.ReenterLock" />
         <item itemvalue="Application.BadLockOnInteger" />
         <item itemvalue="Application.HashMapMultiThread" />
-        <item itemvalue="Application.ArrayListMultiThread" />
-        <item itemvalue="Application.AccountingVol" />
       </list>
     </recent_temporary>
   </component>
@@ -377,7 +381,8 @@
       <workItem from="1545809968184" duration="4680000" />
       <workItem from="1546006430631" duration="1812000" />
       <workItem from="1546138712845" duration="15000" />
-      <workItem from="1549894073625" duration="277000" />
+      <workItem from="1549894073625" duration="2092000" />
+      <workItem from="1549980225338" duration="1377000" />
     </task>
     <task id="LOCAL-00001" summary="非可见性">
       <created>1544689037006</created>
@@ -411,13 +416,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="120963000" />
+    <option name="totallyTimeSpent" value="124155000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4935065" visible="true" weight="0.29948586" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4935065" visible="true" weight="0.3033419" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -435,7 +439,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49426934" weight="0.30727762" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5057307" side_tool="true" weight="0.30727762" />
       <window_info active="true" anchor="bottom" id="Messages" order="9" sideWeight="0.49426934" visible="true" weight="0.32884097" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.3257066" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32479784" />
       <window_info anchor="bottom" id="JRebel Executor" order="11" sideWeight="0.49928367" weight="0.32884097" />
       <window_info anchor="bottom" id="JRebel Console" order="12" sideWeight="0.5007163" side_tool="true" weight="0.32884097" />
       <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
@@ -462,7 +466,8 @@
     <MESSAGE value="一次对象自我拯救的演示" />
     <MESSAGE value="ArrayList 线程不安全" />
     <MESSAGE value="Integer 为不可变对象" />
-    <option name="LAST_COMMIT_MESSAGE" value="Integer 为不可变对象" />
+    <MESSAGE value="限时等待锁" />
+    <option name="LAST_COMMIT_MESSAGE" value="限时等待锁" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -806,20 +811,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/cier/gc/SlotGc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cier/base/duotai/A.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/cier/base/duotai/B.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -1143,8 +1134,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/cier/ReenterLock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+        <state relative-caret-position="340">
+          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cier/IntLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="48" column="24" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cier/TimeLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
